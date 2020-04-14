@@ -2,16 +2,22 @@ all:
 	pip install PyQt5
 
 pack:
-	@echo TODO
+	del xmarek72_xnepra01_xlukac15.zip
+	mkdir xmarek72_xnepra01_xlukac15
+	make doc && move doc xmarek72_xnepra01_xlukac15
+	mkdir install && move install xmarek72_xnepra01_xlukac15
+	git clone https://github.com/kate-nepra/ivs-proj2.git xmarek72_xnepra01_xlukac15/repo
+	zip -r xmarek72_xnepra01_xlukac15.zip xmarek72_xnepra01_xlukac15 && rmdir /Q /S xmarek72_xnepra01_xlukac15 
 
 clean:
-	rmdir /Q /S __pycache__
+	rmdir /Q /S __pycache__  || rmdir /Q /S doc 
 
 test:
 	python math_lib_test.py
 
 doc:
-	doxygen Doxyfile
+	mkdir doc
+	doxygen Doxyfile 
 
 run:
 	python main.py
