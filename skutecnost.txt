@@ -1,0 +1,13 @@
+Porovnanie skutočnosti s plánom
+
+
+Podarilo sa nám dodržiavať dopredu stanovený časový harmonogram bez väčších oneskorení. 
+Rozdelenie úloh sa mierne zmenilo v porovnaní s plánom a pri rozdeľovaní 
+sme pozabudli na Makefile, nápovedu a prepojenie knižnice s GUI.
+Pri komplikáciach sme si vzájomne pomáhali a skupinovo sme ich diskutovali.
+Nenastali problémy s komunikáciou, na ktorú sme používali skupinový chat. 
+
+Začali sme návrhom testov a vzhľadu kalkulačky, následne matematickou knižnicou, 
+ktorú sme prepojili s užívateľským rozhraním.
+Dokumentáciu sme dopĺňali postupne. Vytvorili sme mockupy,
+profiling a neskôr inštalátor a ostatné časti projektu. 
