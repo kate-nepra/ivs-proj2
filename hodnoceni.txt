@@ -1,4 +1,3 @@
 xmarek72 110 (testy, profiling, inštalátor, Makefile, užívateľská dokumentácia, manuál na manuálnu inštaláciu)
 xnepra01 110 (mockup, GUI, prepojenie GUI s knižnicou, užívateľská dokumentácia - zoznámenie a ovládanie aplikácie kalkulačka, ikona)
-xlukac15 80 (doxyfile, matematická knižnica, debug )
-
+xlukac15 80 (doxyfile, matematická knižnica, debug)
