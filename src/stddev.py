@@ -26,6 +26,7 @@ amount=0 # N
 sum_normal=0 # x
 sum_square=0 # xi
 
+## load data from stdin
 def load_data():
 
     while True:
@@ -43,6 +44,7 @@ def load_data():
         except EOFError:
             break
 
+## separate numbers in the line and send them to be calculated
 def process_line(line):
 
         list1 = line.strip().split(" ")
@@ -66,7 +68,7 @@ def process_line(line):
             except ValueError:
                 break
 
-
+## calculate the needed values from the numbers in the line
 def calculate_line(num):
      global amount, sum_normal, sum_square
 
@@ -74,7 +76,7 @@ def calculate_line(num):
      sum_normal=m.addition(sum_normal,num)
      sum_square=m.addition(sum_square,(m.multiplication(num,num)))
 
-
+## calculate the final result
 def calculate_result():
     global amount, sum_normal, sum_square,result
 
