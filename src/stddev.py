@@ -59,7 +59,7 @@ def process_line(line):
             except ValueError: 
                 break
 
-        # if numbers are split by coma 
+        # if numbers are split by comma 
         for j in list2:
             try:
                 num1 = float(j)
