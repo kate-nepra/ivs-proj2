@@ -8,5 +8,5 @@ Profiling with 1000 inputs showed us, that our program spends most of the time i
 In a function, that reads data from input and in function, that does calculations with the read numbers.
 
 Specifically the most time was spend in a build-in function input() and in functions addition() and multiplication() from our math_lib library.
-This is caused because these functions are called many times.
-If we want to optimize our program, we should focus on finding more efficient ways to read number and calculate with them. 
+This is caused because these functions are called very often.
+If we want to optimize our program, we should focus on finding more efficient ways to read numbers and calculate with them. 
