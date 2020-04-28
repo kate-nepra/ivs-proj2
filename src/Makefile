@@ -36,11 +36,11 @@ uninstall:
 help:	
 	@echo make/ make all - install dependencies
 	@echo make pack      - pack needed files
-	@echo make clean     - clean not needed files
-	@echo make test      - start tests for math_library
-	@echo make doc       - generate documentation wuth Doxygen
-	@echo make run       - start program
-	@echo make profile   - start code for standard deviation with example file
-	@echo make install   - make .exe file and move it to new File
-	@echo make uninstall - delete File containing .exe
+	@echo make clean     - clean not needed files and folders
+	@echo make test      - start tests for math library
+	@echo make doc       - generate documentation with Doxygen
+	@echo make run       - start the app
+	@echo make profile   - start the code for standard deviation with example file
+	@echo make install   - make Calculator.exe and move it to a new folder
+	@echo make uninstall - delete folder containing Calculator.exe
 	@echo make help      - print make info for this program
